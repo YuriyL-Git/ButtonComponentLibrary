@@ -16,7 +16,14 @@
     box-shadow: 0 0 5px 0 hsl(0, 0%, 70%);
 }
 
-.btn-primary {
+
+
+.btn.btn-primary:hover, .btn.btn-primary:focus{
+    background-color: hsl(271, 70%, 70%);
+    box-shadow: 0 0 5px 0 hsl(0, 0%, 30%);
+}
+
+.btn.btn-primary {
     background-color: hsl(271, 70%, 50%);
     color: white;
 }
